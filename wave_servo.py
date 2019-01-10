@@ -172,14 +172,12 @@ if camera_type == 'picamera':
 
 #use the value is_human and print "it's a human if the confidence score is above the threshold you decide"
 #################################edit starts##########################################                
-                if is_human > 60:
-                    print("it's a human, I am %s%% sure about it" % is_human)
-                    board.digital[13].write(1)
-                    servo.write(50)
-                    sleep(0.5)
-                    board.digital[13].write(0)
-                    servo.write(0)
-                    sleep(0.5)
+                
+  
+  
+  
+  
+  
 ###################################edit ends##########################################                    
 
         cv2.putText(frame,"FPS: {0:.2f}".format(frame_rate_calc),(30,50),font,1,(255,255,0),2,cv2.LINE_AA)
