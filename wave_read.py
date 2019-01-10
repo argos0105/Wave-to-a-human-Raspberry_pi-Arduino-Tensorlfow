@@ -161,7 +161,7 @@ if camera_type == 'picamera':
         guesses = list_send.copy()
 
 #################################edit starts##########################################
-        print(guesses)
+        
 ###################################edit ends##########################################
         cv2.putText(frame,"FPS: {0:.2f}".format(frame_rate_calc),(30,50),font,1,(255,255,0),2,cv2.LINE_AA)
 
